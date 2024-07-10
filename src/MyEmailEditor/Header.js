@@ -19,11 +19,10 @@ const Header = (props) => {
       <div className="dashboard-header-title">Email Editor</div>
       <div className="dashboard-header-feature">
         <div className="dashboard-header-language">
-          <span onClick={changeLanguage("en")}>EN</span>/<span onClick={changeLanguage("zh")}>中文</span>/
-          <span onClick={changeLanguage("zh_TW")}>繁體中文</span>
+          <span onClick={changeLanguage("en")}>EN</span>
         </div>
         <button className="dashboard-header-subtitle" onClick={exportHTML}>
-          export html
+          Save
         </button>
       </div>
     </div>
